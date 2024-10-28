@@ -1,0 +1,11 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="GoDfaErrorMayBeNotNil" enabled="true" level="WARNING" enabled_by_default="true">
+      <methods>
+        <method importPath="WeatherfForecast/pkg/service" receiver="AuthService" name="Register" />
+        <method importPath="WeatherfForecast/pkg/service" receiver="WeatherClient" name="GetCurrentWeather" />
+      </methods>
+    </inspection_tool>
+  </profile>
+</component>
